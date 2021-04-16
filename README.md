@@ -4,10 +4,10 @@ Courtesy of 3D model of International Space Station : solarsystem.nasa.gov
 THREE.js module comes under the node modules, you'll have to install those modules to run the code.
 
 1. **2D Map view:**
-![](Screenshots/iss_4.png)
+![](Screenshots/iss_5.png)
 
 2. **closer look at the 2D map:**
-![](Screenshots/iss_5.png)
+![](Screenshots/iss_4.png)
 
 3. **3D view 1**
 ![](Screenshots/iss_1.png)

@@ -1,0 +1,16 @@
+head,body{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+#data {
+    padding-right: -50px;
+    margin-right:0px;
+    width:100vw;
+    height:100vh;
+    background-size: contain;
+}

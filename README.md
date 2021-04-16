@@ -1,8 +1,8 @@
 # ISS-Tracker
 This project is implemented using Leaflet.js and Three.js<br>
-Courtesy of 3D model of International Space Station : solarsystem.nasa.gov <br>
 THREE.js module comes under the node modules, you'll have to install those modules to run the code.<br>
-
+**Courtesy of 3D model of International Space Station : solarsystem.nasa.gov** <br>
+<br>
 1. **2D Map view:**
 ![](Screenshots/iss_5.png)
 

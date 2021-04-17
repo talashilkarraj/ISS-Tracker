@@ -4,19 +4,19 @@ import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.
 
 var mymap = new L.map('data').setView([18.977320, 73.100452],3.5);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/rajt/cknhqnmuo5mwf17s7fiou4l5u/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmFqdCIsImEiOiJja25oOWRzdnEydzV5Mm9tcWc0bW00NmZqIn0.c-KeDVJ13PSoL_4qe3j-9Q', {
+L.tileLayer('https://api.mapbox.com/styles/v1/rajt/cknhqnmuo5mwf17s7fiou4l5u/tiles/256/{z}/{x}/{y}@2x?access_token=YOUR_ACCESS_TOKEN', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoicmFqdCIsImEiOiJja25oOWRzdnEydzV5Mm9tcWc0bW00NmZqIn0.c-KeDVJ13PSoL_4qe3j-9Q'
+    accessToken: 'YOUR_ACCESS_TOKEN'
 }).addTo(mymap);
 
 const sat = L.marker([0, 0]).addTo(mymap);
 let X, Y, Z;
 
-const Api_url = "https://api.n2yo.com/rest/v1/satellite/positions/25544/41.702/-76.014/0/2/&apiKey=NBYPR8-4GD9VB-EKEH92-4OD7"
+const Api_url = "https://api.n2yo.com/rest/v1/satellite/positions/25544/41.702/-76.014/0/2/&apiKey=YOUR_API_KEY"
 async function FlightData(){
 	const flightData =  await fetch(Api_url,
 	{	
